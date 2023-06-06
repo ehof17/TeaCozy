@@ -1,0 +1,136 @@
+*{
+    background-color: black;
+    color: seashell;
+    opacity: .9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+  
+    z-index: 0;
+}
+#logo{
+    height: 50px;
+    
+}
+.header{
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 3;
+    top:0;
+}
+.nav{
+  
+}
+li{
+    text-decoration: underline;
+    display: inline;
+    margin-left: 20px;
+    
+    
+
+}
+
+ul{
+    list-style: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+ 
+   
+}
+.Mission{
+    position: relative;
+    top: 50px;
+    background-image: url("img-mission-background.jpg");
+    z-index: 1;
+     height: 700px;
+    background-size:cover;
+}
+.words{
+    position: relative;
+    text-align: center;
+    top:350px;
+   
+}
+.image-text img{
+    height:200px;
+    width:300px;
+}
+.Featured-Tea h4, .Featured-Tea h2{
+    position: relative;
+    top:55px;
+}
+.Featured-Tea-picturebox{
+    position: relative;
+    top:50px;
+    top:50px;
+    width: 1000px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+.Featured-Tea{
+    position: relative;
+    width: 1000px;
+    display: inline;
+    text-align: center;
+}
+.image-text{
+ display: inline-block;
+ text-align: center;
+ margin:20px;
+    
+}
+.textbox{
+    margin: 70px;
+}
+.Locations H2{
+    font-size: 45px;
+    opacity: 1;
+
+}
+.Locations{
+    background-image: url("img-locations-background.jpg");
+ 
+    text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+    text-align: center;
+    
+   
+    align-items: center;
+    justify-content: space-around;
+}
+.bkgrnd{
+    position:absolute;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0,0,0,.0);
+
+}
+.Locations h2{
+    text-align: center;
+    background: rgba(0,0,0,.0);
+    top:25px;
+    
+}
+.Box{
+   opacity: 1;
+   flex-shrink: 0;
+   padding: 8px;
+   cursor:pointer;
+}
+.footer{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+    flex-direction: column;
+}
